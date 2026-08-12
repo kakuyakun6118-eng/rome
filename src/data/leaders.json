@@ -1,0 +1,752 @@
+{
+  "_note": "在位・在職の年で引く人物名。東ローマ皇帝とサーサーン朝の王は実在の人物と在位年に合わせる。蛮族の族長も史料に残る名を年代順に並べる。表示のためだけの情報で、どの計算式にも影響しない",
+  "east": [
+    {
+      "from": 395,
+      "to": 400,
+      "name": "アルカディウス",
+      "age": "youth",
+      "note": "383年に幼くして即位。395年で18歳"
+    },
+    {
+      "from": 400,
+      "to": 408,
+      "name": "アルカディウス",
+      "age": "adult"
+    },
+    {
+      "from": 408,
+      "to": 414,
+      "name": "テオドシウス2世",
+      "age": "child",
+      "note": "7歳で即位"
+    },
+    {
+      "from": 414,
+      "to": 422,
+      "name": "テオドシウス2世",
+      "age": "youth"
+    },
+    {
+      "from": 422,
+      "to": 450,
+      "name": "テオドシウス2世",
+      "age": "adult"
+    },
+    {
+      "from": 450,
+      "to": 457,
+      "name": "マルキアヌス",
+      "age": "elder",
+      "note": "約58歳で即位"
+    },
+    {
+      "from": 457,
+      "to": 474,
+      "name": "レオ1世",
+      "age": "elder",
+      "note": "約56歳で即位"
+    },
+    {
+      "from": 474,
+      "to": 475,
+      "name": "レオ2世",
+      "age": "child",
+      "note": "7歳で即位し同年のうちに没する"
+    },
+    {
+      "from": 475,
+      "to": 476,
+      "name": "バシリスクス",
+      "age": "elder"
+    },
+    {
+      "from": 476,
+      "to": 491,
+      "name": "ゼノン",
+      "age": "adult"
+    },
+    {
+      "from": 491,
+      "to": 518,
+      "name": "アナスタシウス1世",
+      "age": "elder",
+      "note": "財政を立て直し、金庫に巨額を遺した"
+    },
+    {
+      "from": 518,
+      "to": 527,
+      "name": "ユスティヌス1世",
+      "age": "elder",
+      "note": "甥ユスティニアヌスが実権を握る"
+    },
+    {
+      "from": 527,
+      "to": 565,
+      "name": "ユスティニアヌス1世",
+      "age": "adult",
+      "note": "西方の回復（renovatio imperii）を掲げ、ベリサリウスとナルセスを西へ送る"
+    },
+    {
+      "from": 565,
+      "to": 999,
+      "name": "ユスティヌス2世",
+      "age": "adult"
+    }
+  ],
+  "persia": [
+    {
+      "from": 395,
+      "to": 399,
+      "name": "バハラーム4世",
+      "age": "adult"
+    },
+    {
+      "from": 399,
+      "to": 420,
+      "name": "ヤズデギルド1世",
+      "age": "adult"
+    },
+    {
+      "from": 420,
+      "to": 428,
+      "name": "バハラーム5世",
+      "age": "youth",
+      "note": "20代で即位"
+    },
+    {
+      "from": 428,
+      "to": 438,
+      "name": "バハラーム5世",
+      "age": "adult"
+    },
+    {
+      "from": 438,
+      "to": 457,
+      "name": "ヤズデギルド2世",
+      "age": "adult"
+    },
+    {
+      "from": 457,
+      "to": 459,
+      "name": "ホルミズド3世",
+      "age": "youth",
+      "note": "若くして即位し2年で倒れる"
+    },
+    {
+      "from": 459,
+      "to": 472,
+      "name": "ペーローズ1世",
+      "age": "adult"
+    },
+    {
+      "from": 472,
+      "to": 484,
+      "name": "ペーローズ1世",
+      "age": "adult"
+    },
+    {
+      "from": 484,
+      "to": 488,
+      "name": "バラーシュ",
+      "age": "adult"
+    },
+    {
+      "from": 488,
+      "to": 531,
+      "name": "カワード1世",
+      "age": "adult"
+    },
+    {
+      "from": 531,
+      "to": 579,
+      "name": "ホスロー1世",
+      "age": "adult",
+      "note": "アヌーシールワーン（不死の魂）"
+    },
+    {
+      "from": 579,
+      "to": 999,
+      "name": "ホルミズド4世",
+      "age": "adult"
+    }
+  ],
+  "factions": {
+    "Visigoths": [
+      {
+        "from": 395,
+        "to": 410,
+        "name": "アラリック1世",
+        "military": 9
+      },
+      {
+        "from": 410,
+        "to": 415,
+        "name": "アタウルフ",
+        "military": 6
+      },
+      {
+        "from": 415,
+        "to": 418,
+        "name": "ワリア",
+        "military": 6
+      },
+      {
+        "from": 418,
+        "to": 451,
+        "name": "テオドリック1世",
+        "military": 7
+      },
+      {
+        "from": 451,
+        "to": 453,
+        "name": "トリスムンド",
+        "military": 5
+      },
+      {
+        "from": 453,
+        "to": 466,
+        "name": "テオドリック2世",
+        "military": 7
+      },
+      {
+        "from": 466,
+        "to": 999,
+        "name": "エウリック",
+        "military": 8
+      }
+    ],
+    "Vandals": [
+      {
+        "from": 395,
+        "to": 406,
+        "name": "ゴディギセル",
+        "military": 5
+      },
+      {
+        "from": 406,
+        "to": 428,
+        "name": "グンデリック",
+        "military": 6
+      },
+      {
+        "from": 428,
+        "to": 999,
+        "name": "ガイセリック",
+        "military": 10
+      }
+    ],
+    "Huns": [
+      {
+        "from": 395,
+        "to": 412,
+        "name": "ウルディン",
+        "military": 5
+      },
+      {
+        "from": 412,
+        "to": 434,
+        "name": "ルーア",
+        "military": 6
+      },
+      {
+        "from": 434,
+        "to": 445,
+        "name": "ブレダ",
+        "military": 5
+      },
+      {
+        "from": 445,
+        "to": 453,
+        "name": "アッティラ",
+        "military": 10
+      },
+      {
+        "from": 453,
+        "to": 999,
+        "name": "エラク",
+        "military": 4
+      }
+    ],
+    "Franks": [
+      {
+        "from": 395,
+        "to": 428,
+        "name": "マルコメール",
+        "military": 5
+      },
+      {
+        "from": 428,
+        "to": 448,
+        "name": "クロディオ",
+        "military": 6
+      },
+      {
+        "from": 448,
+        "to": 458,
+        "name": "メロヴィク",
+        "military": 6
+      },
+      {
+        "from": 458,
+        "to": 999,
+        "name": "キルデリック1世",
+        "military": 7
+      }
+    ],
+    "Burgundians": [
+      {
+        "from": 395,
+        "to": 436,
+        "name": "グンダハール",
+        "military": 5
+      },
+      {
+        "from": 436,
+        "to": 473,
+        "name": "グンディオク",
+        "military": 6
+      },
+      {
+        "from": 473,
+        "to": 999,
+        "name": "キルペリク2世",
+        "military": 5
+      }
+    ],
+    "Suebi": [
+      {
+        "from": 395,
+        "to": 438,
+        "name": "ヘルメリック",
+        "military": 5
+      },
+      {
+        "from": 438,
+        "to": 448,
+        "name": "レキラ",
+        "military": 6
+      },
+      {
+        "from": 448,
+        "to": 456,
+        "name": "レキアリウス",
+        "military": 6
+      },
+      {
+        "from": 456,
+        "to": 999,
+        "name": "レミスムンド",
+        "military": 5
+      }
+    ],
+    "Alans": [
+      {
+        "from": 395,
+        "to": 409,
+        "name": "レスペンディアル",
+        "military": 6
+      },
+      {
+        "from": 409,
+        "to": 446,
+        "name": "ゴアル",
+        "military": 5
+      },
+      {
+        "from": 446,
+        "to": 999,
+        "name": "ベオルゴル",
+        "military": 5
+      }
+    ],
+    "Saxons": [
+      {
+        "from": 395,
+        "to": 449,
+        "name": "アエッラ",
+        "military": 4
+      },
+      {
+        "from": 449,
+        "to": 999,
+        "name": "ヘンギスト",
+        "military": 6
+      }
+    ],
+    "Alemanni": [
+      {
+        "from": 395,
+        "to": 450,
+        "name": "フラオマール",
+        "military": 5
+      },
+      {
+        "from": 450,
+        "to": 999,
+        "name": "ギバルド",
+        "military": 6
+      }
+    ],
+    "Ostrogoths": [
+      {
+        "from": 395,
+        "to": 420,
+        "name": "ウィニタリウス",
+        "military": 5
+      },
+      {
+        "from": 420,
+        "to": 450,
+        "name": "フニムンド",
+        "military": 5
+      },
+      {
+        "from": 450,
+        "to": 469,
+        "name": "ウァラミル",
+        "military": 7
+      },
+      {
+        "from": 469,
+        "to": 474,
+        "name": "テオデミル",
+        "military": 7
+      },
+      {
+        "from": 474,
+        "to": 999,
+        "name": "テオドリック大王",
+        "military": 9
+      }
+    ],
+    "Gepids": [
+      {
+        "from": 395,
+        "to": 435,
+        "name": "ファスティダ",
+        "military": 5
+      },
+      {
+        "from": 435,
+        "to": 470,
+        "name": "アルダリック",
+        "military": 8
+      },
+      {
+        "from": 470,
+        "to": 999,
+        "name": "トラウスティラ",
+        "military": 6
+      }
+    ],
+    "Heruli": [
+      {
+        "from": 395,
+        "to": 450,
+        "name": "ロドゥルフ",
+        "military": 4
+      },
+      {
+        "from": 450,
+        "to": 470,
+        "name": "エデコ",
+        "military": 6
+      },
+      {
+        "from": 470,
+        "to": 999,
+        "name": "オドアケル",
+        "military": 8
+      }
+    ],
+    "Scoti": [
+      {
+        "from": 395,
+        "to": 405,
+        "name": "ニール・ノイギャラハ",
+        "military": 6
+      },
+      {
+        "from": 405,
+        "to": 445,
+        "name": "ナス・イー",
+        "military": 5
+      },
+      {
+        "from": 445,
+        "to": 999,
+        "name": "ロイガレ・マク・ネール",
+        "military": 5
+      }
+    ],
+    "Mauri": [
+      {
+        "from": 395,
+        "to": 398,
+        "name": "ギルド",
+        "military": 6
+      },
+      {
+        "from": 398,
+        "to": 450,
+        "name": "マスティエス",
+        "military": 5
+      },
+      {
+        "from": 450,
+        "to": 999,
+        "name": "マスナ",
+        "military": 5
+      }
+    ]
+  },
+  "generalNames": [
+    "スティリコ",
+    "コンスタンティウス",
+    "フラウィウス・アエティウス",
+    "ボニファティウス",
+    "フェリクス",
+    "リキメル",
+    "グンドバド",
+    "オレステス",
+    "マルケリヌス",
+    "アエギディウス",
+    "ネポティアヌス",
+    "アルボガステス",
+    "ウァリア",
+    "アステリウス",
+    "カストゥス",
+    "シギスウルト",
+    "ウィンケンティウス",
+    "アガピトゥス"
+  ],
+  "knownGenerals": {
+    "stilicho": "スティリコ",
+    "hist_stilicho": "スティリコ",
+    "hist_constantius": "コンスタンティウス3世",
+    "hist_aetius": "フラウィウス・アエティウス",
+    "hist_ricimer": "リキメル",
+    "hist_orestes": "オレステス"
+  },
+  "_portraitNote": "勢力ごとに固定する族長の顔。壮年・老年は13枚あるので勢力ごとに一意にできる。若年は9枚なので12勢力のうち3つだけ重なる。フンとマウリは専用の出自から hash で引くのでここには入れない",
+  "factionPortraits": {
+    "Visigoths": {
+      "youth": "chief_barbarian_youth_01.webp",
+      "adult": "chief_barbarian_adult_01.webp",
+      "elder": "chief_barbarian_elder_01.webp"
+    },
+    "Vandals": {
+      "youth": "chief_barbarian_youth_02.webp",
+      "adult": "chief_barbarian_adult_02.webp",
+      "elder": "chief_barbarian_elder_02.webp"
+    },
+    "Franks": {
+      "youth": "chief_barbarian_youth_03.webp",
+      "adult": "chief_barbarian_adult_03.webp",
+      "elder": "chief_barbarian_elder_03.webp"
+    },
+    "Burgundians": {
+      "youth": "chief_barbarian_youth_04.webp",
+      "adult": "chief_barbarian_adult_04.webp",
+      "elder": "chief_barbarian_elder_04.webp"
+    },
+    "Suebi": {
+      "youth": "chief_barbarian_youth_05.webp",
+      "adult": "chief_barbarian_adult_05.webp",
+      "elder": "chief_barbarian_elder_05.webp"
+    },
+    "Alans": {
+      "youth": "chief_barbarian_youth_06.webp",
+      "adult": "chief_barbarian_adult_06.webp",
+      "elder": "chief_barbarian_elder_06.webp"
+    },
+    "Saxons": {
+      "youth": "chief_barbarian_youth_07.webp",
+      "adult": "chief_barbarian_adult_07.webp",
+      "elder": "chief_barbarian_elder_07.webp"
+    },
+    "Gepids": {
+      "youth": "chief_barbarian_youth_08.webp",
+      "adult": "chief_barbarian_adult_08.webp",
+      "elder": "chief_barbarian_elder_08.webp"
+    },
+    "Scoti": {
+      "youth": "chief_barbarian_youth_09.webp",
+      "adult": "chief_barbarian_adult_09.webp",
+      "elder": "chief_barbarian_elder_09.webp"
+    },
+    "Ostrogoths": {
+      "youth": "chief_barbarian_youth_01.webp",
+      "adult": "chief_barbarian_adult_10.webp",
+      "elder": "chief_barbarian_elder_10.webp"
+    },
+    "Heruli": {
+      "youth": "chief_barbarian_youth_02.webp",
+      "adult": "chief_barbarian_adult_11.webp",
+      "elder": "chief_barbarian_elder_11.webp"
+    },
+    "Alemanni": {
+      "youth": "chief_barbarian_youth_03.webp",
+      "adult": "chief_barbarian_adult_12.webp",
+      "elder": "chief_barbarian_elder_12.webp"
+    }
+  },
+  "_militaryNote": "族長の軍事能力（1〜10）。史実の事績に即して付ける。ローマを陥れたアラリック、アフリカを奪い49年統治したガイセリック、カタラウヌムまで攻め上ったアッティラを10前後に、史料の乏しい者や短命だった者を4〜5に置く。戦闘解決の攻撃側戦力を補正するだけで新しい資源ではない",
+  "eastCommanders": [
+    {
+      "from": 395,
+      "to": 399,
+      "name": "ルフィヌス",
+      "military": 5
+    },
+    {
+      "from": 399,
+      "to": 408,
+      "name": "フラウィウス・ガイナス",
+      "military": 6
+    },
+    {
+      "from": 408,
+      "to": 425,
+      "name": "アンテミウス",
+      "military": 6
+    },
+    {
+      "from": 425,
+      "to": 450,
+      "name": "フラウィウス・アスパル",
+      "military": 7
+    },
+    {
+      "from": 450,
+      "to": 471,
+      "name": "アスパル",
+      "military": 7
+    },
+    {
+      "from": 471,
+      "to": 488,
+      "name": "イッルス",
+      "military": 6
+    },
+    {
+      "from": 488,
+      "to": 503,
+      "name": "ヨハンネス・スキュタ",
+      "military": 6
+    },
+    {
+      "from": 503,
+      "to": 527,
+      "name": "ケレル",
+      "military": 7
+    },
+    {
+      "from": 527,
+      "to": 559,
+      "name": "ベリサリウス",
+      "military": 10,
+      "note": "ダラ・アド・デキムム・タギナエ。寡兵で勝ち続けた6世紀最大の将"
+    },
+    {
+      "from": 559,
+      "to": 568,
+      "name": "ナルセス",
+      "military": 9,
+      "note": "タギナエとモンス・ラクタリウスで東ゴートを平らげた"
+    },
+    {
+      "from": 568,
+      "to": 999,
+      "name": "ティベリウス",
+      "military": 7
+    }
+  ],
+  "persiaCommanders": [
+    {
+      "from": 395,
+      "to": 420,
+      "name": "ナルセフ",
+      "military": 6
+    },
+    {
+      "from": 420,
+      "to": 440,
+      "name": "ミフル・ナルセフ",
+      "military": 7
+    },
+    {
+      "from": 440,
+      "to": 460,
+      "name": "シャープール",
+      "military": 7
+    },
+    {
+      "from": 460,
+      "to": 500,
+      "name": "イズド・グシュナースプ",
+      "military": 8
+    },
+    {
+      "from": 500,
+      "to": 530,
+      "name": "ペーローズ（ミフラーン家）",
+      "military": 7
+    },
+    {
+      "from": 530,
+      "to": 557,
+      "name": "アザレテス",
+      "military": 8
+    },
+    {
+      "from": 557,
+      "to": 999,
+      "name": "アダルマハン",
+      "military": 8
+    }
+  ],
+  "westCommanders": [
+    {
+      "from": 395,
+      "to": 408,
+      "id": "hist_stilicho",
+      "name": "スティリコ",
+      "military": 9,
+      "note": "ポッレンティア・ウェローナでアラリックを退けた。408年に処刑される"
+    },
+    {
+      "from": 411,
+      "to": 421,
+      "id": "hist_constantius",
+      "name": "コンスタンティウス3世",
+      "military": 8,
+      "note": "僭称帝を平らげ、西ゴートをアクィタニアに定住させた"
+    },
+    {
+      "from": 425,
+      "to": 454,
+      "id": "hist_aetius",
+      "name": "フラウィウス・アエティウス",
+      "military": 10,
+      "note": "カタラウヌムでアッティラを止めた「最後のローマ人」。454年に謀殺される"
+    },
+    {
+      "from": 457,
+      "to": 472,
+      "id": "hist_ricimer",
+      "name": "リキメル",
+      "military": 8,
+      "note": "皇帝を立てては廃した実質の支配者"
+    },
+    {
+      "from": 472,
+      "to": 476,
+      "id": "hist_orestes",
+      "name": "オレステス",
+      "military": 6,
+      "note": "アッティラの元書記。息子ロムルスを帝位に就けた"
+    }
+  ]
+}

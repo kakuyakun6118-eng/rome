@@ -1,0 +1,169 @@
+[
+  {
+    "id": "Visigoths",
+    "strength": 66,
+    "stance": "foederati",
+    "location": "Illyricum",
+    "demand": {
+      "type": "gold",
+      "amount": 30
+    },
+    "route": [
+      "Italia",
+      "Gallia",
+      "Hispania"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Vandals",
+    "strength": 32,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Gallia",
+      "Hispania",
+      "Africa"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Huns",
+    "strength": 96,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Illyricum",
+      "Italia"
+    ],
+    "routeIndex": 0,
+    "collapseYear": 454
+  },
+  {
+    "id": "Franks",
+    "strength": 29,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Gallia"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Burgundians",
+    "strength": 23,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Gallia"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Suebi",
+    "strength": 16,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Hispania"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Alans",
+    "strength": 19,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Gallia",
+      "Hispania"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Saxons",
+    "strength": 13,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Britannia"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Alemanni",
+    "strength": 28,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Gallia"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Ostrogoths",
+    "strength": 28,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Illyricum",
+      "Noricum"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Gepids",
+    "strength": 19,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Illyricum",
+      "Noricum"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Heruli",
+    "strength": 11,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Noricum"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Scoti",
+    "strength": 10,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Britannia"
+    ],
+    "routeIndex": 0
+  },
+  {
+    "id": "Mauri",
+    "strength": 20,
+    "stance": "hostile",
+    "location": "exterior",
+    "demand": null,
+    "route": [
+      "Africa"
+    ],
+    "routeIndex": 0,
+    "raider": true
+  }
+]

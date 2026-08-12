@@ -1,0 +1,40 @@
+{
+  "army": 195,
+  "stance": "peace",
+  "warStartYear": null,
+  "vassalRuler": null,
+  "provinces": [
+    {
+      "id": "Thracia",
+      "control": 90,
+      "baseTax": 120,
+      "garrison": 22,
+      "owner": "east"
+    },
+    {
+      "id": "Asiana",
+      "control": 95,
+      "baseTax": 170,
+      "garrison": 20,
+      "owner": "east"
+    },
+    {
+      "id": "Oriens",
+      "control": 90,
+      "baseTax": 190,
+      "garrison": 26,
+      "owner": "east"
+    },
+    {
+      "id": "Aegyptus",
+      "control": 95,
+      "baseTax": 210,
+      "garrison": 18,
+      "owner": "east"
+    }
+  ],
+  "commander": {
+    "name": "ルフィヌス",
+    "military": 5
+  }
+}

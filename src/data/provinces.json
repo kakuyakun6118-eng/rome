@@ -1,0 +1,9 @@
+[
+  { "id": "Italia", "control": 100, "baseTax": 220, "garrison": 20 },
+  { "id": "Gallia", "control": 90, "baseTax": 180, "garrison": 15 },
+  { "id": "Africa", "control": 95, "baseTax": 150, "garrison": 10 },
+  { "id": "Hispania", "control": 85, "baseTax": 100, "garrison": 8 },
+  { "id": "Illyricum", "control": 70, "baseTax": 90, "garrison": 10 },
+  { "id": "Noricum", "control": 75, "baseTax": 50, "garrison": 6 },
+  { "id": "Britannia", "control": 60, "baseTax": 40, "garrison": 4 }
+]

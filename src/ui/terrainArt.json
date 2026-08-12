@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "basePath": "/terrain/",
+  "entries": [
+    { "terrain": "plain", "file": "plain.webp" },
+    { "terrain": "hill", "file": "hill.webp" },
+    { "terrain": "forest", "file": "forest.webp" },
+    { "terrain": "desert", "file": "desert.webp" },
+    { "terrain": "river", "file": "river.webp" }
+  ]
+}

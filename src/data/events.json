@@ -1,0 +1,188 @@
+[
+  {
+    "id": "406_rhine_crossing",
+    "year": 406,
+    "title": "406年 ライン渡河",
+    "description": "ヴァンダル・アラン・スエビがラインを越えてガリアに侵入する。",
+    "condition": {
+      "year": 406
+    },
+    "effects": [
+      {
+        "field": "provinces.Gallia.control",
+        "delta": -20
+      },
+      {
+        "field": "factions.Vandals.location",
+        "set": "Gallia"
+      }
+    ],
+    "onceOnly": true,
+    "harmful": true
+  },
+  {
+    "id": "410_sack_of_rome",
+    "year": 410,
+    "title": "410年 ローマ略奪",
+    "description": "アラリック率いる西ゴート族がローマを略奪する。",
+    "condition": {
+      "year": 410,
+      "stateConditions": [
+        {
+          "field": "legitimacy",
+          "operator": "lt",
+          "value": 50
+        }
+      ]
+    },
+    "effects": [
+      {
+        "field": "legitimacy",
+        "delta": -20
+      },
+      {
+        "field": "treasury",
+        "delta": -100
+      }
+    ],
+    "onceOnly": true,
+    "harmful": true
+  },
+  {
+    "id": "429_vandal_africa_crossing",
+    "year": 429,
+    "title": "429年 ヴァンダルのアフリカ渡海",
+    "description": "ヴァンダル族がジブラルタル海峡を渡りアフリカ属州に侵入する。",
+    "condition": {
+      "minYear": 410,
+      "maxYear": 440,
+      "anyOf": [
+        {
+          "field": "factions.Vandals.location",
+          "operator": "eq",
+          "value": "Hispania"
+        },
+        {
+          "field": "factions.Vandals.location",
+          "operator": "eq",
+          "value": "Gallia"
+        }
+      ],
+      "stateConditions": [
+        {
+          "field": "factions.Vandals.stance",
+          "operator": "neq",
+          "value": "settled"
+        }
+      ]
+    },
+    "effects": [
+      {
+        "field": "factions.Vandals.location",
+        "set": "Africa"
+      },
+      {
+        "field": "provinces.Africa.control",
+        "delta": -40
+      }
+    ],
+    "onceOnly": true,
+    "harmful": true
+  },
+  {
+    "id": "451_catalaunian_fields",
+    "year": 451,
+    "title": "451年 カタラウヌムの戦い",
+    "description": "西ローマとゴートの連合軍がフン族を撃退する。",
+    "condition": {
+      "year": 451,
+      "stateConditions": [
+        {
+          "field": "factions.Huns.location",
+          "operator": "neq",
+          "value": "exterior"
+        },
+        {
+          "field": "general.current.military",
+          "operator": "gte",
+          "value": 1
+        }
+      ]
+    },
+    "effects": [
+      {
+        "field": "factions.Huns.strength",
+        "delta": -50
+      },
+      {
+        "field": "legitimacy",
+        "delta": 15
+      }
+    ],
+    "onceOnly": true,
+    "harmful": false
+  },
+  {
+    "id": "455_vandal_sack_of_rome",
+    "year": 455,
+    "title": "455年 ヴァンダルのローマ略奪",
+    "description": "ガイセリック率いるヴァンダル族がローマを略奪する。",
+    "condition": {
+      "year": 455,
+      "stateConditions": [
+        {
+          "field": "provinces.Africa.control",
+          "operator": "lt",
+          "value": 30
+        }
+      ]
+    },
+    "effects": [
+      {
+        "field": "legitimacy",
+        "delta": -15
+      },
+      {
+        "field": "treasury",
+        "delta": -80
+      }
+    ],
+    "onceOnly": true,
+    "harmful": true
+  },
+  {
+    "id": "476_odoacer",
+    "year": 476,
+    "title": "476年 オドアケルによる廃位",
+    "description": "オドアケルがロムルス・アウグストゥルスを廃位する。",
+    "condition": {
+      "minYear": 460,
+      "maxYear": 476,
+      "anyOf": [
+        {
+          "field": "legitimacy",
+          "operator": "lte",
+          "value": 40
+        },
+        {
+          "field": "provinces.Italia.control",
+          "operator": "lte",
+          "value": 40
+        },
+        {
+          "field": "taxBase",
+          "operator": "lte",
+          "value": 42
+        }
+      ]
+    },
+    "effects": [
+      {
+        "field": "status",
+        "set": "collapsed"
+      }
+    ],
+    "onceOnly": true,
+    "harmful": true
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "basePath": "/battles/",
+  "entries": [
+    {
+      "file": "teutoburg.webp",
+      "title": "トイトブルク森の戦い（9年）",
+      "terrain": ["forest"],
+      "foe": ["barbarian"]
+    },
+    {
+      "file": "adrianople.webp",
+      "title": "アドリアノープルの戦い（378年）",
+      "terrain": ["plain", "hill"],
+      "foe": ["barbarian"]
+    },
+    {
+      "file": "catalaunian.webp",
+      "title": "カタラウヌムの戦い（451年）",
+      "terrain": ["plain"],
+      "foe": ["barbarian"]
+    },
+    {
+      "file": "frigidus.webp",
+      "title": "フリギドゥスの戦い（394年）",
+      "terrain": ["river", "hill"],
+      "foe": ["barbarian", "east"]
+    },
+    {
+      "file": "edessa.webp",
+      "title": "エデッサの戦い（260年）",
+      "terrain": ["desert"],
+      "foe": ["persia"]
+    },
+    {
+      "file": "dara.webp",
+      "title": "ダラの戦い（530年）",
+      "terrain": ["desert", "plain"],
+      "foe": ["persia", "east"]
+    },
+    {
+      "file": "ctesiphon.webp",
+      "title": "クテシフォンの戦い（363年）",
+      "terrain": ["desert", "river"],
+      "foe": ["persia"]
+    },
+    {
+      "file": "rome_sack.webp",
+      "title": "ローマ略奪（410年）",
+      "terrain": [],
+      "foe": [],
+      "capital": true
+    },
+    {
+      "file": "ravenna.webp",
+      "title": "ラヴェンナ陥落（476年）",
+      "terrain": [],
+      "foe": [],
+      "capital": true
+    }
+  ]
+}

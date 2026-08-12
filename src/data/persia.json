@@ -1,0 +1,11 @@
+{
+  "strength": 190,
+  "intervened": false,
+  "interventionYear": null,
+  "seizedProvinces": [],
+  "commander": {
+    "name": "ナルセフ",
+    "military": 6
+  },
+  "relations": 20
+}

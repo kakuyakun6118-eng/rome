@@ -1,0 +1,257 @@
+{
+  "_note": "首都と主要都市。表示のためだけの情報で、どの計算式にも影響しない。位置は経緯度で持ち、地図と同じ投影（projectLonLat）を通す。rank は都市の規模と重みで、9以上は地図に名前を出す。属州（province）を持つ都市は、触れたときにその属州の支配度と守備隊を添える。labelDx / labelDy は札の逃がし先で、属州名や隣の都市とぶつかるものだけ手で寄せている",
+  "cities": [
+    {
+      "id": "Roma",
+      "name": "ローマ",
+      "lon": 12.48,
+      "lat": 41.89,
+      "owner": "west",
+      "province": "Italia",
+      "role": "旧都・元老院の座",
+      "rank": 10,
+      "labelDx": -52,
+      "labelDy": 12
+    },
+    {
+      "id": "Ravenna",
+      "name": "ラウェンナ",
+      "lon": 12.2,
+      "lat": 44.42,
+      "owner": "west",
+      "province": "Italia",
+      "role": "402年以降の宮廷。沼沢に守られる",
+      "rank": 8
+    },
+    {
+      "id": "Mediolanum",
+      "name": "メディオラヌム",
+      "lon": 9.19,
+      "lat": 45.46,
+      "owner": "west",
+      "province": "Italia",
+      "role": "395年の宮廷。北イタリアの要",
+      "rank": 8
+    },
+    {
+      "id": "Aquileia",
+      "name": "アクィレイア",
+      "lon": 13.37,
+      "lat": 45.77,
+      "owner": "west",
+      "province": "Italia",
+      "role": "イタリア北東の門",
+      "rank": 6
+    },
+    {
+      "id": "Carthago",
+      "name": "カルタゴ",
+      "lon": 10.32,
+      "lat": 36.85,
+      "owner": "west",
+      "province": "Africa",
+      "role": "穀物の積出港。ローマの胃袋",
+      "rank": 9,
+      "labelDx": 46,
+      "labelDy": 4
+    },
+    {
+      "id": "Treveri",
+      "name": "トレウェリ",
+      "lon": 6.64,
+      "lat": 49.75,
+      "owner": "west",
+      "province": "Gallia",
+      "role": "ガリア道の府。ライン軍の後背",
+      "rank": 7
+    },
+    {
+      "id": "Arelate",
+      "name": "アレラテ",
+      "lon": 4.63,
+      "lat": 43.68,
+      "owner": "west",
+      "province": "Gallia",
+      "role": "後にガリア道の府が移る",
+      "rank": 6
+    },
+    {
+      "id": "Lugdunum",
+      "name": "ルグドゥヌム",
+      "lon": 4.83,
+      "lat": 45.76,
+      "owner": "west",
+      "province": "Gallia",
+      "role": "ガリアの交通の結節",
+      "rank": 6
+    },
+    {
+      "id": "Hispalis",
+      "name": "ヒスパリス",
+      "lon": -5.99,
+      "lat": 37.39,
+      "owner": "west",
+      "province": "Hispania",
+      "role": "バエティカの富",
+      "rank": 6
+    },
+    {
+      "id": "Tarraco",
+      "name": "タラコ",
+      "lon": 1.25,
+      "lat": 41.12,
+      "owner": "west",
+      "province": "Hispania",
+      "role": "ヒスパニア東岸の府",
+      "rank": 5
+    },
+    {
+      "id": "Londinium",
+      "name": "ロンディニウム",
+      "lon": -0.13,
+      "lat": 51.51,
+      "owner": "west",
+      "province": "Britannia",
+      "role": "ブリタンニアの府",
+      "rank": 5
+    },
+    {
+      "id": "Sirmium",
+      "name": "シルミウム",
+      "lon": 19.61,
+      "lat": 44.97,
+      "owner": "west",
+      "province": "Illyricum",
+      "role": "イリュリクム道の府",
+      "rank": 6
+    },
+    {
+      "id": "Salona",
+      "name": "サロナ",
+      "lon": 16.48,
+      "lat": 43.54,
+      "owner": "west",
+      "province": "Illyricum",
+      "role": "ダルマティアの港",
+      "rank": 5
+    },
+    {
+      "id": "Vindobona",
+      "name": "ウィンドボナ",
+      "lon": 16.37,
+      "lat": 48.21,
+      "owner": "west",
+      "province": "Noricum",
+      "role": "ドナウ防衛線の陣営",
+      "rank": 5
+    },
+    {
+      "id": "Constantinopolis",
+      "name": "コンスタンティノポリス",
+      "lon": 28.98,
+      "lat": 41.01,
+      "owner": "east",
+      "province": "Thracia",
+      "role": "新しきローマ。東帝の都",
+      "rank": 10,
+      "labelDx": 6,
+      "labelDy": 4
+    },
+    {
+      "id": "Thessalonica",
+      "name": "テッサロニケ",
+      "lon": 22.94,
+      "lat": 40.64,
+      "owner": "east",
+      "province": "Thracia",
+      "role": "バルカンの要港",
+      "rank": 7
+    },
+    {
+      "id": "Ephesus",
+      "name": "エフェソス",
+      "lon": 27.34,
+      "lat": 37.94,
+      "owner": "east",
+      "province": "Asiana",
+      "role": "アシアの府",
+      "rank": 6
+    },
+    {
+      "id": "Antiochia",
+      "name": "アンティオキア",
+      "lon": 36.16,
+      "lat": 36.2,
+      "owner": "east",
+      "province": "Oriens",
+      "role": "東方軍の拠点。対ペルシアの前線",
+      "rank": 9,
+      "labelDx": 34,
+      "labelDy": -16
+    },
+    {
+      "id": "Hierosolyma",
+      "name": "ヒエロソリュマ",
+      "lon": 35.23,
+      "lat": 31.78,
+      "owner": "east",
+      "province": "Oriens",
+      "role": "巡礼の都",
+      "rank": 6
+    },
+    {
+      "id": "Alexandria",
+      "name": "アレクサンドリア",
+      "lon": 29.92,
+      "lat": 31.2,
+      "owner": "east",
+      "province": "Aegyptus",
+      "role": "穀物と学芸。東の胃袋",
+      "rank": 9,
+      "labelDx": -6,
+      "labelDy": 2
+    },
+    {
+      "id": "Ctesiphon",
+      "name": "クテシフォン",
+      "lon": 44.58,
+      "lat": 33.09,
+      "owner": "persia",
+      "province": null,
+      "role": "サーサーン朝の都",
+      "rank": 10,
+      "labelDx": 10,
+      "labelDy": 14
+    },
+    {
+      "id": "Nisibis",
+      "name": "ニシビス",
+      "lon": 41.22,
+      "lat": 37.07,
+      "owner": "persia",
+      "province": null,
+      "role": "国境要塞。363年にローマが割譲",
+      "rank": 7
+    },
+    {
+      "id": "Gundeshapur",
+      "name": "グンデシャープール",
+      "lon": 48.4,
+      "lat": 32.3,
+      "owner": "persia",
+      "province": null,
+      "role": "捕虜が築いた学芸の都",
+      "rank": 6
+    },
+    {
+      "id": "Istakhr",
+      "name": "イスタフル",
+      "lon": 52.9,
+      "lat": 29.98,
+      "owner": "persia",
+      "province": null,
+      "role": "王家の故地。ペルセポリスの傍ら",
+      "rank": 7
+    }
+  ]
+}

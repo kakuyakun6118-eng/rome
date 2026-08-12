@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+*.csv
+.scratch/
+
+# 音源はリポジトリに含めない（src/ui/public/music/README.md）
+*.mp3
+
+# 動作確認で撮る一時ファイル。リポジトリの根に置いた作業用のものだけを弾き、
+# src/ui/public/portraits/ の素材は対象にしない
+/*.png
+/scratch-*
+rome.html

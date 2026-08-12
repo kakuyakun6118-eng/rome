@@ -1,0 +1,13 @@
+{
+  "_comment": "西ローマの元老院貴族の家門。婚姻の相手として引く。状態を持たない静的なデータで、都市名や地域名と同じ扱い",
+  "houses": [
+    { "id": "anicii", "name": "アニキウス" },
+    { "id": "symmachi", "name": "シュンマクス" },
+    { "id": "nicomachi", "name": "ニコマクス" },
+    { "id": "caeionii", "name": "ケイオニウス" },
+    { "id": "decii", "name": "デキウス" },
+    { "id": "rufii", "name": "ルフィウス" },
+    { "id": "valerii", "name": "ウァレリウス" },
+    { "id": "petronii", "name": "ペトロニウス" }
+  ]
+}

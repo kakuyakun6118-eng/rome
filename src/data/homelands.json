@@ -1,0 +1,11 @@
+{
+  "_note": "帝国外に定住地が特定できる勢力の郷里。征服すると西の領域になる。baseTax は属州（40〜220）より低く取る。ローマの版図の外なので徴税機構が育っておらず、奪っても属州ほどの実入りにはならない。フン・アラン・西ゴート・ヴァンダル・東ゴート・ヘルール・アラマンニはここに入れない。前四者はこの時代ずっと動き続けており、ヘルールも定住地を持たず、アラマンニの地（アグリ・デクマテス）は国境線そのものと重なっていて分けられないため",
+  "homelands": [
+    { "factionId": "Franks",      "name": "ゲルマニア",     "control": 100, "baseTax": 60, "garrison": 12, "owner": "barbarian" },
+    { "factionId": "Burgundians", "name": "ウィスワ",       "control": 100, "baseTax": 45, "garrison": 9,  "owner": "barbarian" },
+    { "factionId": "Suebi",       "name": "ボイオハエムム", "control": 100, "baseTax": 50, "garrison": 10, "owner": "barbarian" },
+    { "factionId": "Saxons",      "name": "ダニア",         "control": 100, "baseTax": 40, "garrison": 8,  "owner": "barbarian" },
+    { "factionId": "Gepids",      "name": "ダキア",         "control": 100, "baseTax": 70, "garrison": 14, "owner": "barbarian" },
+    { "factionId": "Scoti",       "name": "ヒベルニア",     "control": 100, "baseTax": 35, "garrison": 7,  "owner": "barbarian" }
+  ]
+}

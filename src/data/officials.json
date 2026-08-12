@@ -1,0 +1,117 @@
+{
+  "namePool": [
+    "ルフィヌス",
+    "エウトロピウス",
+    "アヌッリヌス",
+    "メッサラ",
+    "デキムス",
+    "ロンギニアヌス",
+    "ハドリアヌス",
+    "テオドルス",
+    "カエキリアヌス",
+    "プロブス",
+    "フロレンティウス",
+    "ウォルシアヌス",
+    "パラディウス",
+    "アルビヌス",
+    "シュンマクス",
+    "バッスス",
+    "マキシミアヌス",
+    "フィルミヌス",
+    "ペトロニウス",
+    "ラエタ",
+    "アウグスティヌス",
+    "セウェリヌス",
+    "ガウデンティウス",
+    "オピリオ",
+    "リベリウス",
+    "カッシオドルス",
+    "ボエティウス",
+    "アルビヌス・ユニオル",
+    "マルケリヌス",
+    "アンブロシウス",
+    "パウリヌス",
+    "ウルサキウス",
+    "レオンティウス",
+    "アプロニアヌス",
+    "セレアリス",
+    "ネポティアヌス",
+    "アガピトゥス",
+    "デキウス",
+    "フェリクス",
+    "ウァレリウス"
+  ],
+  "prefect": {
+    "id": "p395_theodorus",
+    "name": "マッリウス・テオドルス",
+    "ability": 6,
+    "ambition": 3,
+    "appointedYear": 395,
+    "retiresYear": 408
+  },
+  "governors": [
+    {
+      "id": "v395_italia",
+      "provinceId": "Italia",
+      "name": "シュンマクス",
+      "ability": 6,
+      "ambition": 3,
+      "appointedYear": 395,
+      "retiresYear": 409
+    },
+    {
+      "id": "v395_gallia",
+      "provinceId": "Gallia",
+      "name": "リモニウス",
+      "ability": 5,
+      "ambition": 6,
+      "appointedYear": 395,
+      "retiresYear": 406
+    },
+    {
+      "id": "v395_africa",
+      "provinceId": "Africa",
+      "name": "ギルド",
+      "ability": 5,
+      "ambition": 8,
+      "appointedYear": 395,
+      "retiresYear": 404
+    },
+    {
+      "id": "v395_hispania",
+      "provinceId": "Hispania",
+      "name": "ペトロニウス",
+      "ability": 5,
+      "ambition": 4,
+      "appointedYear": 395,
+      "retiresYear": 407
+    },
+    {
+      "id": "v395_illyricum",
+      "provinceId": "Illyricum",
+      "name": "ウルサキウス",
+      "ability": 5,
+      "ambition": 5,
+      "appointedYear": 395,
+      "retiresYear": 405
+    },
+    {
+      "id": "v395_noricum",
+      "provinceId": "Noricum",
+      "name": "セウェリヌス",
+      "ability": 5,
+      "ambition": 3,
+      "appointedYear": 395,
+      "retiresYear": 410
+    },
+    {
+      "id": "v395_britannia",
+      "provinceId": "Britannia",
+      "name": "クリサントゥス",
+      "ability": 4,
+      "ambition": 7,
+      "appointedYear": 395,
+      "retiresYear": 403
+    }
+  ]
+}
